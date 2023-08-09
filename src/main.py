@@ -13,3 +13,32 @@
 
 #    You should have received a copy of the GNU General Public License
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+import tkinter as tk
+import tkinter.messagebox
+import sys
+import json
+import os
+
+
+def createConfig() -> None:
+	tf = ("Times", "18")
+	s = tk.Tk()
+	s.title("Wesician Configuration")
+	tk.Label(s, text="Wesician Configuration", font=tf).pack(side=tk.TOP)
+	s.mainloop()
+
+def main() -> int:
+	if os.path.isfile("wesician.config.json") == False:
+		createConfig()
+	s = tk.Tk()
+	s.title("Wesician")
+	s.mainloop()
+	return 0
+
+if __name__ == "__main__":
+	sys.exit(main())
+else:
+	print("wesician: main.py MUST BE AN ENTRYPOINT,")
+	print("wesician: but it is not directly executed.")
+	sys.exit(1)
