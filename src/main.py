@@ -20,6 +20,8 @@ import sys
 import json
 import os
 
+def configWizardVerify(cachepath):
+    pass
 
 def createConfig() -> None:
 	tf = ("Times", "18")
