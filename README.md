@@ -1,5 +1,10 @@
 <h1 align="center">Wesician</h1>
-<p align="center">Scripts for Yousician (PC/Mac).  We ask, the community delivers.</p>
+<p align="center">Scripts for Yousician (PC).  We ask, the community delivers.</p>
+<p align="center"> <!-- badges -->
+  <a href='https://wesician.readthedocs.io/en/latest/?badge=latest'>
+    <img src='https://readthedocs.org/projects/wesician/badge/?version=latest' alt='Documentation Status' />
+</a>
+</p>
 <h2>What is Wesician?</h2>
 <p>Simply, Wesician is a collection of scripts to do things with Yousician that was not intended by the <a href="https://yousician.com/">original developers</a>.
 <h2>What does it do?</h2>
